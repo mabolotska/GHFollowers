@@ -19,6 +19,8 @@
 		D073001E2B89EE1A006D4D6B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073001D2B89EE1A006D4D6B /* NetworkManager.swift */; };
 		D07300212B8A0CE4006D4D6B /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300202B8A0CE4006D4D6B /* GFError.swift */; };
 		D07300242B8A8E83006D4D6B /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300232B8A8E83006D4D6B /* FollowerCell.swift */; };
+		D07300272B8B1F98006D4D6B /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300262B8B1F98006D4D6B /* GFAvatarImageView.swift */; };
+		D07300292B8B30C6006D4D6B /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300282B8B30C6006D4D6B /* UIHelper.swift */; };
 		D073FFFD2B8893AA006D4D6B /* FavoriteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073FFFC2B8893AA006D4D6B /* FavoriteListVC.swift */; };
 		D073FFFF2B8893F7006D4D6B /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073FFFE2B8893F7006D4D6B /* TabBarVC.swift */; };
 		D0E9AFAC2B888D9A0061BE38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9AFAB2B888D9A0061BE38 /* AppDelegate.swift */; };
@@ -41,6 +43,8 @@
 		D073001D2B89EE1A006D4D6B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		D07300202B8A0CE4006D4D6B /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		D07300232B8A8E83006D4D6B /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		D07300262B8B1F98006D4D6B /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		D07300282B8B30C6006D4D6B /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		D073FFFC2B8893AA006D4D6B /* FavoriteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListVC.swift; sourceTree = "<group>"; };
 		D073FFFE2B8893F7006D4D6B /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		D0E9AFA82B888D9A0061BE38 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +95,7 @@
 		D073000D2B89D82C006D4D6B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D07300252B8B1F81006D4D6B /* Images */,
 				D07300222B8A7955006D4D6B /* Cell */,
 				D073000E2B89D843006D4D6B /* Alert */,
 				D07300002B8898F2006D4D6B /* Buttons */,
@@ -162,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				D07300202B8A0CE4006D4D6B /* GFError.swift */,
+				D07300282B8B30C6006D4D6B /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -172,6 +178,14 @@
 				D07300232B8A8E83006D4D6B /* FollowerCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		D07300252B8B1F81006D4D6B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D07300262B8B1F98006D4D6B /* GFAvatarImageView.swift */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		D073FFFB2B88938B006D4D6B /* Controllers */ = {
@@ -296,12 +310,14 @@
 				D0E9AFAC2B888D9A0061BE38 /* AppDelegate.swift in Sources */,
 				D073001B2B89EAB7006D4D6B /* User.swift in Sources */,
 				D07300242B8A8E83006D4D6B /* FollowerCell.swift in Sources */,
+				D07300272B8B1F98006D4D6B /* GFAvatarImageView.swift in Sources */,
 				D07300102B89D85B006D4D6B /* GFAlertVC.swift in Sources */,
 				D07300182B89E8DE006D4D6B /* Follower.swift in Sources */,
 				D0E9AFAE2B888D9A0061BE38 /* SceneDelegate.swift in Sources */,
 				D073000A2B88B696006D4D6B /* GFTitleLabel.swift in Sources */,
 				D07300072B88AF8A006D4D6B /* FollowerListVC.swift in Sources */,
 				D07300212B8A0CE4006D4D6B /* GFError.swift in Sources */,
+				D07300292B8B30C6006D4D6B /* UIHelper.swift in Sources */,
 				D073001E2B89EE1A006D4D6B /* NetworkManager.swift in Sources */,
 				D07300052B889C53006D4D6B /* GFTextField.swift in Sources */,
 				D073000C2B89D7FC006D4D6B /* GFBodyLabel.swift in Sources */,
