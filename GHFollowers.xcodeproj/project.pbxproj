@@ -35,6 +35,9 @@
 		D07300432B8D3BD2006D4D6B /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300422B8D3BD2006D4D6B /* PersistenceManager.swift */; };
 		D07300452B8D4E26006D4D6B /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300442B8D4E26006D4D6B /* Test.swift */; };
 		D07300672B8E8455006D4D6B /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300662B8E8454006D4D6B /* FavoriteCell.swift */; };
+		D07300772B906885006D4D6B /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300762B906885006D4D6B /* GFDataLoadingVC.swift */; };
+		D07300792B906DC3006D4D6B /* UIVIew+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300782B906DC3006D4D6B /* UIVIew+Ext.swift */; };
+		D073007B2B909E11006D4D6B /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073007A2B909E11006D4D6B /* UITableView+Ext.swift */; };
 		D073FFFD2B8893AA006D4D6B /* FavoriteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073FFFC2B8893AA006D4D6B /* FavoriteListVC.swift */; };
 		D073FFFF2B8893F7006D4D6B /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073FFFE2B8893F7006D4D6B /* TabBarVC.swift */; };
 		D0E9AFAC2B888D9A0061BE38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9AFAB2B888D9A0061BE38 /* AppDelegate.swift */; };
@@ -73,6 +76,9 @@
 		D07300422B8D3BD2006D4D6B /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		D07300442B8D4E26006D4D6B /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		D07300662B8E8454006D4D6B /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		D07300762B906885006D4D6B /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
+		D07300782B906DC3006D4D6B /* UIVIew+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Ext.swift"; sourceTree = "<group>"; };
+		D073007A2B909E11006D4D6B /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
 		D073FFFC2B8893AA006D4D6B /* FavoriteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListVC.swift; sourceTree = "<group>"; };
 		D073FFFE2B8893F7006D4D6B /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		D0E9AFA82B888D9A0061BE38 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +155,8 @@
 				D07300122B89E27C006D4D6B /* extension UIViewController.swift */,
 				D073003E2B8CA16A006D4D6B /* Date+Ext.swift */,
 				D07300402B8CA194006D4D6B /* String+Ext.swift */,
+				D07300782B906DC3006D4D6B /* UIVIew+Ext.swift */,
+				D073007A2B909E11006D4D6B /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				D073002B2B8BA2B2006D4D6B /* GFEmptyStateView.swift */,
+				D07300762B906885006D4D6B /* GFDataLoadingVC.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -366,6 +375,8 @@
 				D07300312B8BDDA9006D4D6B /* GFUserInfoHeaderVC.swift in Sources */,
 				D07300022B889902006D4D6B /* GFButton.swift in Sources */,
 				D07300452B8D4E26006D4D6B /* Test.swift in Sources */,
+				D07300772B906885006D4D6B /* GFDataLoadingVC.swift in Sources */,
+				D07300792B906DC3006D4D6B /* UIVIew+Ext.swift in Sources */,
 				D073FFFF2B8893F7006D4D6B /* TabBarVC.swift in Sources */,
 				D073002C2B8BA2B2006D4D6B /* GFEmptyStateView.swift in Sources */,
 				D07300332B8BDDE0006D4D6B /* GFSecondaryTitleLabel.swift in Sources */,
@@ -379,6 +390,7 @@
 				D07300102B89D85B006D4D6B /* GFAlertVC.swift in Sources */,
 				D073002E2B8BBB1F006D4D6B /* UserInfoVC.swift in Sources */,
 				D07300182B89E8DE006D4D6B /* Follower.swift in Sources */,
+				D073007B2B909E11006D4D6B /* UITableView+Ext.swift in Sources */,
 				D0E9AFAE2B888D9A0061BE38 /* SceneDelegate.swift in Sources */,
 				D07300412B8CA194006D4D6B /* String+Ext.swift in Sources */,
 				D073000A2B88B696006D4D6B /* GFTitleLabel.swift in Sources */,
