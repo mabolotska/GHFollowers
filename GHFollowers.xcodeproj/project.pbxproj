@@ -32,6 +32,9 @@
 		D073003D2B8C85F2006D4D6B /* GFRepoItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073003C2B8C85F2006D4D6B /* GFRepoItemVC.swift */; };
 		D073003F2B8CA16A006D4D6B /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073003E2B8CA16A006D4D6B /* Date+Ext.swift */; };
 		D07300412B8CA194006D4D6B /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300402B8CA194006D4D6B /* String+Ext.swift */; };
+		D07300432B8D3BD2006D4D6B /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300422B8D3BD2006D4D6B /* PersistenceManager.swift */; };
+		D07300452B8D4E26006D4D6B /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300442B8D4E26006D4D6B /* Test.swift */; };
+		D07300672B8E8455006D4D6B /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07300662B8E8454006D4D6B /* FavoriteCell.swift */; };
 		D073FFFD2B8893AA006D4D6B /* FavoriteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073FFFC2B8893AA006D4D6B /* FavoriteListVC.swift */; };
 		D073FFFF2B8893F7006D4D6B /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073FFFE2B8893F7006D4D6B /* TabBarVC.swift */; };
 		D0E9AFAC2B888D9A0061BE38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E9AFAB2B888D9A0061BE38 /* AppDelegate.swift */; };
@@ -67,6 +70,9 @@
 		D073003C2B8C85F2006D4D6B /* GFRepoItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemVC.swift; sourceTree = "<group>"; };
 		D073003E2B8CA16A006D4D6B /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		D07300402B8CA194006D4D6B /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		D07300422B8D3BD2006D4D6B /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		D07300442B8D4E26006D4D6B /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		D07300662B8E8454006D4D6B /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		D073FFFC2B8893AA006D4D6B /* FavoriteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListVC.swift; sourceTree = "<group>"; };
 		D073FFFE2B8893F7006D4D6B /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		D0E9AFA82B888D9A0061BE38 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				D073001D2B89EE1A006D4D6B /* NetworkManager.swift */,
+				D07300422B8D3BD2006D4D6B /* PersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -203,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				D07300232B8A8E83006D4D6B /* FollowerCell.swift */,
+				D07300662B8E8454006D4D6B /* FavoriteCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -274,6 +282,7 @@
 				D073FFFB2B88938B006D4D6B /* Controllers */,
 				D0E9AFAB2B888D9A0061BE38 /* AppDelegate.swift */,
 				D0E9AFAD2B888D9A0061BE38 /* SceneDelegate.swift */,
+				D07300442B8D4E26006D4D6B /* Test.swift */,
 				D0E9AFB42B888D9D0061BE38 /* Assets.xcassets */,
 				D0E9AFB62B888D9D0061BE38 /* LaunchScreen.storyboard */,
 				D0E9AFB92B888D9D0061BE38 /* Info.plist */,
@@ -356,9 +365,11 @@
 				D07300132B89E27C006D4D6B /* extension UIViewController.swift in Sources */,
 				D07300312B8BDDA9006D4D6B /* GFUserInfoHeaderVC.swift in Sources */,
 				D07300022B889902006D4D6B /* GFButton.swift in Sources */,
+				D07300452B8D4E26006D4D6B /* Test.swift in Sources */,
 				D073FFFF2B8893F7006D4D6B /* TabBarVC.swift in Sources */,
 				D073002C2B8BA2B2006D4D6B /* GFEmptyStateView.swift in Sources */,
 				D07300332B8BDDE0006D4D6B /* GFSecondaryTitleLabel.swift in Sources */,
+				D07300432B8D3BD2006D4D6B /* PersistenceManager.swift in Sources */,
 				D0E9AFAC2B888D9A0061BE38 /* AppDelegate.swift in Sources */,
 				D073001B2B89EAB7006D4D6B /* User.swift in Sources */,
 				D07300242B8A8E83006D4D6B /* FollowerCell.swift in Sources */,
@@ -376,6 +387,7 @@
 				D07300212B8A0CE4006D4D6B /* GFError.swift in Sources */,
 				D07300292B8B30C6006D4D6B /* UIHelper.swift in Sources */,
 				D073003F2B8CA16A006D4D6B /* Date+Ext.swift in Sources */,
+				D07300672B8E8455006D4D6B /* FavoriteCell.swift in Sources */,
 				D073001E2B89EE1A006D4D6B /* NetworkManager.swift in Sources */,
 				D07300052B889C53006D4D6B /* GFTextField.swift in Sources */,
 				D07300372B8C7672006D4D6B /* GFItemInfoView.swift in Sources */,
